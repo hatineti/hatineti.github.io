@@ -32,7 +32,7 @@ In the `Kotlin language` the application context which can be accessed applicati
 In Kotlin we access context inside an activity by the keyword `this`.
 
 
-![Android context](https://github.com/hatineti/hatineti.github.io/blob/master/ContextDiag.png){:style="display:block; margin-left:auto; margin-right:auto"}
+![Android context](https://github.com/hatineti/hatineti.github.io/blob/master/ContextDiag.drawio){:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## Lifecycle
 Activities and fragments in Android have a `lifecycle` which is used to track state using event callbacks for each stage the activity or fragment is in. Lifecycle stages can be summarized as follows. See [developer documentation](https://developer.android.com/guide/components/activities/activity-lifecycle) for more details.
