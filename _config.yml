@@ -16,13 +16,13 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: title: "Home" "index.html"}
-  - {file: title: "About Hatineti" "README.md"}
+  - {file: "index.html", title: "Home"}
+  - {file: "README.md", title: "About Hatineti"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:alvin.fungai@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/hatineti"}
-  - {title: Twitter, icon: twitter, url: "/feed.xml"}
+  - {title: Twitter, icon: twitter, url: "https://twitter.com/hatineti"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
